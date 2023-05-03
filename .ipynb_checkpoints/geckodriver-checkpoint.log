@@ -1,0 +1,1951 @@
+1682104198177	geckodriver	INFO	Listening on 127.0.0.1:61191
+1682104201245	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61192" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofileINC4N4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682104201982	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682104201994	Marionette	INFO	Listening on port 61211
+Read port: 61211
+WebDriver BiDi listening on ws://127.0.0.1:61192
+1682104202198	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofileINC4N4\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:61192/devtools/browser/35e24376-c777-460b-854a-35f4b58a14d1
+1682104210159	Marionette	INFO	Stopped listening on port 61211
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1682104402918	geckodriver	INFO	Listening on 127.0.0.1:61484
+1682104405950	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61485" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofilelvf6jX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682104406496	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682104406502	Marionette	INFO	Listening on port 61499
+Read port: 61499
+WebDriver BiDi listening on ws://127.0.0.1:61485
+1682104406798	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofilelvf6jX\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:61485/devtools/browser/db4e4eb2-e04d-4b17-95bf-78eab9490f72
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+1682104886411	Marionette	INFO	Stopped listening on port 61499
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+onette" "--remote-debugging-port" "62220" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofilebMoX3I"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682104853942	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682104853956	Marionette	INFO	Listening on port 62234
+Read port: 62234
+WebDriver BiDi listening on ws://127.0.0.1:62220
+1682104854514	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofilebMoX3I\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:62220/devtools/browser/a1391e4c-1e6c-4845-b982-cc10988337f7
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+1682104887088	Marionette	INFO	Stopped listening on port 62234
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1682105089429	geckodriver	INFO	Listening on 127.0.0.1:62733
+1682105092498	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62734" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofileTdUXON"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682105093079	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682105093086	Marionette	INFO	Listening on port 62744
+Read port: 62744
+WebDriver BiDi listening on ws://127.0.0.1:62734
+1682105093284	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofileTdUXON\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:62734/devtools/browser/f151bf60-ed5a-46df-b10a-48521c72d4b9
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1682105188642	Marionette	INFO	Stopped listening on port 62744
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63004" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofilexodjoe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682105167527	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682105167537	Marionette	INFO	Listening on port 63015
+Read port: 63015
+WebDriver BiDi listening on ws://127.0.0.1:63004
+1682105167785	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofilexodjoe\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:63004/devtools/browser/fc82acea-0ba7-46bd-a288-83a5f05c63df
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+1682105477023	Marionette	INFO	Stopped listening on port 63015
+Dynamically enable window occlusion 1
+console.warn: services.settings: main/doh-providers sync interrupted by shutdown
+console.warn: services.settings: main/addons-manager-settings sync interrupted by shutdown
+console.warn: services.settings: main/doh-config sync interrupted by shutdown
+console.warn: services.settings: main/devtools-devices sync interrupted by shutdown
+console.warn: services.settings: main/websites-with-shared-credential-backends sync interrupted by shutdown
+console.warn: services.settings: main/language-dictionaries sync interrupted by shutdown
+console.warn: services.settings: main/password-recipes sync interrupted by shutdown
+console.warn: services.settings: main/search-telemetry-v2 sync interrupted by shutdown
+console.warn: services.settings: main/search-config sync interrupted by shutdown
+console.warn: services.settings: main/password-rules sync interrupted by shutdown
+console.warn: services.settings: main/fxmonitor-breaches sync interrupted by shutdown
+console.warn: services.settings: security-state/cert-revocations sync interrupted by shutdown
+console.warn: services.settings: security-state/intermediates sync interrupted by shutdown
+console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
+stas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+1682105312901	Marionette	INFO	Stopped listening on port 63315
+Dynamically enable window occlusion 1
+1682105440284	geckodriver	INFO	Listening on 127.0.0.1:63743
+1682105443358	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63744" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofilegzqzR2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682105446534	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682105446761	Marionette	INFO	Listening on port 63772
+Read port: 63772
+WebDriver BiDi listening on ws://127.0.0.1:63744
+1682105447564	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofilegzqzR2\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:63744/devtools/browser/5f30cc91-2442-4c33-81c4-529aa02102e1
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+1682105736018	Marionette	INFO	Stopped listening on port 63772
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+onette" "--remote-debugging-port" "64539" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofilekyl5EJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682105733484	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682105733493	Marionette	INFO	Listening on port 64554
+Read port: 64554
+WebDriver BiDi listening on ws://127.0.0.1:64539
+1682105733767	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofilekyl5EJ\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:64539/devtools/browser/c77b022f-c903-4848-98bc-9dd52916ed4e
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+1682105858493	Marionette	INFO	Stopped listening on port 64554
+Dynamically enable window occlusion 1
+[Parent 9392, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+hez\\AppData\\Local\\Temp\\rust_mozprofileQSQpWQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682105823526	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682105823533	Marionette	INFO	Listening on port 64809
+Read port: 64809
+WebDriver BiDi listening on ws://127.0.0.1:64798
+1682105823718	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofileQSQpWQ\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:64798/devtools/browser/916f939a-b1df-4ad4-aff0-4a3731a23f85
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2019))
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+1682105892352	Marionette	INFO	Stopped listening on port 64801682105894008	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65040" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofilet6Isx4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682105894548	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682105894554	Marionette	INFO	Listening on port 65056
+Read port: 65056
+WebDriver BiDi listening on ws://127.0.0.1:65040
+1682105894712	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofilet6Isx4\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:65040/devtools/browser/1b3181f2-aa5e-47da-850e-39bdb8fa2357
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 194: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 194: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 194: TypeError: rule is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+1682107745642	geckodriver	INFO	Listening on 127.0.0.1:51796
+1682107748666	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51797" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofile6MHume"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682107749475	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682107749484	Marionette	INFO	Listening on port 51806
+Read port: 51806
+WebDriver BiDi listening on ws://127.0.0.1:51797
+1682107749711	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofile6MHume\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:51797/devtools/browser/6af09e3f-a034-401b-bdb0-9cda24bba708
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+1682107810052	geckodriver	INFO	Listening on 127.0.0.1:52184
+1682107813157	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52185" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofile6c236k"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682107813789	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682107813795	Marionette	INFO	Listening on port 52196
+Read port: 52196
+WebDriver BiDi listening on ws://127.0.0.1:52185
+1682107813984	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofile6c236k\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:52185/devtools/browser/1ba9fd9f-2360-49de-8bd0-5051d3279b87
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+1682111292706	Marionette	INFO	Stopped listening on port 52196
+Dynamically enable window occlusion 1
+[Parent 1412, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+ces.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682111130025	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682111130106	Marionette	INFO	Listening on port 54232
+Read port: 54232
+WebDriver BiDi listening on ws://127.0.0.1:54210
+1682111130798	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofileXjahhq\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:54210/devtools/browser/99f43f18-15f4-4792-af79-b1760a3747c9
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+1682111294878	Marionette	INFO	Stopped listening on port 54232
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54526" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofile1xD9Sr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682111235202	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682111235216	Marionette	INFO	Listening on port 54541
+Read port: 54541
+WebDriver BiDi listening on ws://127.0.0.1:54526
+1682111235572	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofile1xD9Sr\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:54526/devtools/browser/af32b6ac-bd1d-40a0-98da-4a40025ffa1a
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+1682111361860	Marionette	INFO	Stopped listening on port 54541
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+1682111549450	geckodriver	INFO	Listening on 127.0.0.1:49799
+1682111552549	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49800" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofile0dbtKN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682111553286	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682111553295	Marionette	INFO	Listening on port 49813
+Read port: 49813
+WebDriver BiDi listening on ws://127.0.0.1:49800
+1682111553511	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofile0dbtKN\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:49800/devtools/browser/023b0474-24e4-42ce-90f1-02a06f265b6f
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+1682112033303	geckodriver	INFO	Listening on 127.0.0.1:50158
+1682112036369	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50159" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofilemYAtrZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682112037286	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682112037297	Marionette	INFO	Listening on port 50167
+Read port: 50167
+WebDriver BiDi listening on ws://127.0.0.1:50159
+1682112037560	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofilemYAtrZ\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:50159/devtools/browser/13ad8161-32ec-42dc-a960-6754466e1ec3
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+1682112172826	Marionette	INFO	Stopped listening on port 50167
+Dynamically enable window occlusion 1
+1682112875304	geckodriver	INFO	Listening on 127.0.0.1:51019
+1682112878432	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51020" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofileEZhYzc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682112879124	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682112879135	Marionette	INFO	Listening on port 51031
+Read port: 51031
+WebDriver BiDi listening on ws://127.0.0.1:51020
+1682112879373	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofileEZhYzc\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:51020/devtools/browser/9521b957-dd96-433f-97da-65b0846b4d22
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1682113184214	Marionette	INFO	Stopped listening on port 5103JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1682113360721	Marionette	INFO	Stopped listening on port 51319
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+ed listening on port 51611
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1682113363725	geckodriver	INFO	Listening on 127.0.0.1:51783
+1682113366807	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51784" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofilecA5ruR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682113367413	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682113367421	Marionette	INFO	Listening on port 51793
+Read port: 51793
+WebDriver BiDi listening on ws://127.0.0.1:51784
+1682113367624	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofilecA5ruR\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:51784/devtools/browser/ce3b8ccb-fdef-4174-a130-0d64a2649c65
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+1682116770162	Marionette	INFO	Stopped listening on port 51793
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+
+Read port: 52826
+WebDriver BiDi listening on ws://127.0.0.1:52814
+1682114506881	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofileLay5Zt\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:52814/devtools/browser/4c95176e-f1de-4c50-beb9-c9cfd8a2d8c8
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+1682116771269	Marionette	INFO	Stopped listening on port 52826
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+1682431364632	geckodriver	INFO	Listening on 127.0.0.1:57278
+1682431367795	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57279" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofileyj07Sc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682431368696	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682431368708	Marionette	INFO	Listening on port 57292
+Read port: 57292
+WebDriver BiDi listening on ws://127.0.0.1:57279
+1682431368965	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofileyj07Sc\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:57279/devtools/browser/0b6dad25-8dcb-4bc9-8464-1b9329c0f3c1
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+1682432328774	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+1682438106726	Marionette	INFO	Stopped listening on port 57292
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+1682438132762	geckodriver	INFO	Listening on 127.0.0.1:64397
+1682438135838	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64398" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofileHXPn4Y"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682438136473	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682438136482	Marionette	INFO	Listening on port 64407
+Read port: 64407
+WebDriver BiDi listening on ws://127.0.0.1:64398
+1682438136667	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofileHXPn4Y\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:64398/devtools/browser/629ef4dc-e615-49a0-a3f3-0f71ceb1df00
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 414))
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+1682438513914	geckodriver	INFO	Listening on 127.0.0.1:64861
+1682438516977	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64862" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofile5aAgYo"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682438517526	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682438517532	Marionette	INFO	Listening on port 64871
+Read port: 64871
+WebDriver BiDi listening on ws://127.0.0.1:64862
+1682438517700	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofile5aAgYo\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:64862/devtools/browser/23f0daa2-3480-44db-8d90-78cfd488f447
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 414))
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+1682439950850	geckodriver	INFO	Listening on 127.0.0.1:50144
+1682439953935	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50145" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofileluGx1c"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682439954593	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682439954602	Marionette	INFO	Listening on port 50154
+Read port: 50154
+WebDriver BiDi listening on ws://127.0.0.1:50145
+1682439954811	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofileluGx1c\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:50145/devtools/browser/42770322-d8e4-4e5c-b19e-88364f99a9f4
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:297:29
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null\ngetMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:297:29\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:576:16\n"
+1682440052653	Marionette	INFO	Stopped listening on port 50154
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+[Parent 7404, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:583
+1682440165394	geckodriver	INFO	Listening on 127.0.0.1:50655
+1682440168464	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50656" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofilelR9h9U"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682440169083	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682440169090	Marionette	INFO	Listening on port 50666
+Read port: 50666
+WebDriver BiDi listening on ws://127.0.0.1:50656
+1682440169278	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofilelR9h9U\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:50656/devtools/browser/4b9dc7c6-43cd-406b-96aa-0c6ad023d158
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: https://apicms.betplay.com.co/jackpod, line 373: TypeError: data[0] is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 294: TypeError: document.querySelector(...).init is not a function
+1682440315776	Marionette	INFO	Stopped listening on port 50666
+Dynamically enable window occlusion 1
+1682440351202	geckodriver	INFO	Listening on 127.0.0.1:51074
+1682440354262	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51075" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofile6FzbdS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682440354833	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682440354839	Marionette	INFO	Listening on port 51084
+Read port: 51084
+WebDriver BiDi listening on ws://127.0.0.1:51075
+1682440355019	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofile6FzbdS\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:51075/devtools/browser/b045f023-31bd-4e8d-9364-25d0295b6664
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 294: TypeError: document.querySelector(...).init is not a function
+JavaScript error: https://d2kl3vz0o53wtj.cloudfront.net/bundle.js, line 1: TypeError: n is undefined
+1682440522241	Marionette	INFO	Stopped listening on port 51084
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+1682440525260	geckodriver	INFO	Listening on 127.0.0.1:51538
+1682440528316	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51539" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofileCb2QZk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682440528845	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682440528851	Marionette	INFO	Listening on port 51548
+Read port: 51548
+WebDriver BiDi listening on ws://127.0.0.1:51539
+1682440529017	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofileCb2QZk\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:51539/devtools/browser/ef24155f-d9b1-46b5-a62c-0b31a4ec3a91
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 414))
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+1682440777727	Marionette	INFO	Stopped listening on port 51541682440778180	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52022" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofileaRnsG9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682440778990	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682440779004	Marionette	INFO	Listening on port 52029
+Read port: 52029
+WebDriver BiDi listening on ws://127.0.0.1:52022
+1682440779218	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofileaRnsG9\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:52022/devtools/browser/4ee5250b-d00b-43b5-a9d9-20af59707c9b
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+1682440911185	Marionette	INFO	Stopped listening on port 52029
+Dynamically enable window occlusion 1
+1682440927392	geckodriver	INFO	Listening on 127.0.0.1:52423
+1682440930438	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52424" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofilexxoY0p"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682440930954	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682440930960	Marionette	INFO	Listening on port 52437
+Read port: 52437
+WebDriver BiDi listening on ws://127.0.0.1:52424
+1682440931127	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofilexxoY0p\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:52424/devtools/browser/c7e11640-83c8-4123-b86b-aa18f65ca2b9
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+1682440969341	Marionette	INFO	Stopped listening on port 52437
+Dynamically enable window occlusion 1
+[Parent 12788, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1682441273548	geckodriver	INFO	Listening on 127.0.0.1:53078
+1682441276633	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53079" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofileZDmFKS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682441277296	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682441277304	Marionette	INFO	Listening on port 53093
+Read port: 53093
+WebDriver BiDi listening on ws://127.0.0.1:53079
+1682441277694	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofileZDmFKS\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:53079/devtools/browser/4d31b355-3953-4aad-8936-f44a90494768
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+1682441306721	Marionette	INFO	Stopped listening on port 53093
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1682441389106	geckodriver	INFO	Listening on 127.0.0.1:53401
+1682441392161	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53402" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofilecRxHJr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682441392727	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682441392733	Marionette	INFO	Listening on port 53412
+WebDriver BiDi listening on ws://127.0.0.1:53402
+Read port: 53412
+1682441393057	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofilecRxHJr\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:53402/devtools/browser/00b5e2a9-7d1d-4b01-827c-fefe21bf4b1b
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+1682441430481	Marionette	INFO	Stopped listening on port 53412
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1682441558704	geckodriver	INFO	Listening on 127.0.0.1:53772
+1682441561715	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53773" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofileXXFFYQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682441562202	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682441562210	Marionette	INFO	Listening on port 53782
+Read port: 53782
+WebDriver BiDi listening on ws://127.0.0.1:53773
+1682441562442	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofileXXFFYQ\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:53773/devtools/browser/eb9d9a2a-903c-4341-a60e-8d8aaea63a32
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+1682441585464	Marionette	INFO	Stopped listening on port 53782
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1682441675114	geckodriver	INFO	Listening on 127.0.0.1:54096
+1682441678146	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54097" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofile4CfQSm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682441678663	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682441678670	Marionette	INFO	Listening on port 54106
+Read port: 54106
+WebDriver BiDi listening on ws://127.0.0.1:54097
+1682441678840	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofile4CfQSm\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:54097/devtools/browser/d49faf97-c432-401f-94f3-10ce430f9e7c
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 294: TypeError: document.querySelector(...).init is not a function
+1682441728284	Marionette	INFO	Stopped listening on port 54106
+Dynamically enable window occlusion 1
+[Parent 5540, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1682441985296	geckodriver	INFO	Listening on 127.0.0.1:54686
+1682441988336	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54687" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofileRmUJq5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682441989044	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682441989050	Marionette	INFO	Listening on port 54696
+Read port: 54696
+WebDriver BiDi listening on ws://127.0.0.1:54687
+1682441989518	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofileRmUJq5\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:54687/devtools/browser/ce91e61c-e18b-46dc-b76e-e1b5c0a61dfd
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+1682442096454	Marionette	INFO	Stopped listening on port 54696
+Dynamically enable window occlusion 1
+1682442134335	geckodriver	INFO	Listening on 127.0.0.1:55058
+1682442137403	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55059" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofilev6h1wH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682442137953	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682442137958	Marionette	INFO	Listening on port 55068
+Read port: 55068
+WebDriver BiDi listening on ws://127.0.0.1:55059
+1682442138133	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofilev6h1wH\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:55059/devtools/browser/d49d2957-6d37-4a60-83ef-c6dd312b7a6d
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+1682442189666	Marionette	INFO	Stopped listening on port 55068
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1682442520209	geckodriver	INFO	Listening on 127.0.0.1:55720
+1682442523278	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55721" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofileBfkCRc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682442523849	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682442523857	Marionette	INFO	Listening on port 55729
+Read port: 55729
+WebDriver BiDi listening on ws://127.0.0.1:55721
+1682442524047	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofileBfkCRc\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:55721/devtools/browser/089e6829-3e40-4c51-afb3-32b8c19aa771
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 414))
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+1682442586428	Marionette	INFO	Stopped listening on port 55729
+Dynamically enable window occlusion 1
+1682450586897	geckodriver	INFO	Listening on 127.0.0.1:56851
+1682450590049	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56852" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofileFwSkSX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682450590960	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682450590971	Marionette	INFO	Listening on port 56863
+Read port: 56863
+WebDriver BiDi listening on ws://127.0.0.1:56852
+1682450591216	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofileFwSkSX\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:56852/devtools/browser/c52e6539-4706-4e3d-ae1b-8d5b19e71bfd
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 414))
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+1682450610061	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+1682450635809	Marionette	INFO	Stopped listening on port 56863
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1682450642424	geckodriver	INFO	Listening on 127.0.0.1:57082
+1682450645507	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57083" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofiled1FbIF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682450646269	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682450646275	Marionette	INFO	Listening on port 57096
+Read port: 57096
+WebDriver BiDi listening on ws://127.0.0.1:57083
+1682450646469	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofiled1FbIF\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:57083/devtools/browser/e5f8393a-8f25-43a4-8007-4360761749be
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+1682450723622	Marionette	INFO	Stopped listening on port 57096
+Dynamically enable window occlusion 1
+1682455790913	geckodriver	INFO	Listening on 127.0.0.1:62899
+1682455794012	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62900" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofile4in6RS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682455794802	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682455794812	Marionette	INFO	Listening on port 62910
+Read port: 62910
+WebDriver BiDi listening on ws://127.0.0.1:62900
+1682455795238	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sanchez\\AppData\\Local\\Temp\\rust_mozprofile4in6RS\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:62900/devtools/browser/0409bae8-af11-4c6a-9b29-1e51aff3d93c
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json, line 2: SyntaxError: unexpected token: ':'
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 423: TypeError: document.getElementById(...) is null
+JavaScript error: https://apps.mypurecloud.com/widgets/9.0/plugins/widgets-core.min.js, line 7: TypeError: y.data is not a function
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 117: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://betplay.com.co/apuestas#filter/football/colombia/liga_betplay_dimayor, line 293: ReferenceError: data is not defined
+1682455813376	Marionette	INFO	Stopped listening on port 62910
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
