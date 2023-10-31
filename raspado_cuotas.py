@@ -68,7 +68,7 @@ try:
 
 
 
-    with open('./datos_consolidados.csv', 'a') as csv_file:
+    with open('./datos.csv', 'a') as csv_file:
         csv_writer = csv.writer(csv_file, dialect='excel')
         csv_writer.writerows(lista_cuotas)
 except:
